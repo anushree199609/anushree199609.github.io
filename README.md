@@ -191,8 +191,25 @@ $MYSQL_HOME/my.cnf
 
 Set the options max_allowed_packet and innodb_log_file-size in the [mysqld] section to the values shown: [mysqld] max_allowed_packet=300M innodb_log_file_size=768M
 
+-----------------------------------------------------------------------------------------------------------------------------
+### 05-02-2020
+# Python in 90 Minutes
+I have read the concept of python.
+
+[PYTHON](https://www.slideshare.net/MattHarrison4/learn-90)
+
 ------------------------------------------------------------------------------------------------------------------------------
-### 29-1-2020 
+### 2-02-2020 
+# Python begining
+Today I have starting learnt to python and I have learnt the Basic Syntax,Varriable Types,Basic operators from this link.
+[Python Tutorial](https://www.tutorialspoint.com/python/python_basic_syntax.htm)
+
+------------------------------------------------------------------------------------------------------------------------------
+### 1-02-2020
+# Today I Understand Linux command,script,shortcuts etc.
+
+------------------------------------------------------------------------------------------------------------------------------
+### 29-1-2020 --- 31-01-2020 
 # How to install the kali linux 2020.1 step by step
 # [Kali-Linux](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=11&cad=rja&uact=8&ved=2ahUKEwjes-iAuOznAhVv63MBHY0hBm0QFjAKegQIAhAB&url=https%3A%2F%2Fwww.hackingarticles.in%2Fhow-to-install-kali-linux-step-by-step-guide%2F&usg=AOvVaw191RziHDy1A8XHNXEqcrDA)
 ------------------------------------------------------------------------------------------------------------------------
