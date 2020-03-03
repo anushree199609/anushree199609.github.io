@@ -2,18 +2,22 @@
 # How to change multiple file extension?
  
 Script.sh
+
 #!/bin/bash
+
 srcpath=$1
-dstpath=$2      
-echo $srcpath          #print source directory name
-echo $dstpath          #print destination directory name   
-mkdir -p "$dstpath"    #Make a directory
-cp -r $srcpath/* $dstpath   #Copy source file into destination file                   
-for srcpath              #check the source directory
+
+dstpath=$2  
+
+echo $srcpath                     #print source directory name
+echo $dstpath                     #print destination directory name   
+mkdir -p "$dstpath"               #Make a directory
+cp -r $srcpath/* $dstpath         #Copy source file into destination file                   
+for srcpath                       #check the source directory
  do
-     for files in $(ls $dstpath/*.*);          #check the all file with in destination directory  
+     for files in $(ls $dstpath/*.*);                    #check the all file with in destination directory  
      do
- echo  $(mv -v $files  ${files%.*}.txt)      #remove the extension  into another extension             
+ echo  $(mv -v $files  ${files%.*}.txt)                  #remove the extension  into another extension             
  done
    done  
    
