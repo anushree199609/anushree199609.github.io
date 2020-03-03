@@ -21,9 +21,9 @@ for srcpath                       #check the source directory
 
  do
  
-     for files in $(ls $dstpath/*.*);                    #check the all file with in destination directory  
+  for files in $(ls $dstpath/*.*);                    #check the all file with in destination directory  
      
-     do
+   do
      
  echo  $(mv -v $files  ${files%.*}.txt)                  #remove the extension  into another extension
  
