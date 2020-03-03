@@ -103,7 +103,7 @@ do
 
  #tail command display the last 3 line and sed is used for delete the last line of the file
 
-tail-3 $f|sed -i '$d' $f|sed -i '$d' $f |sed -i '$d' $f ;
+tail-3 $f|sed -i '$d' $f|sed -i '$d' $f|sed -i '$d' $f ;
 
 done
 
