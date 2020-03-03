@@ -1,3 +1,16 @@
+-------------------------------------------------------------------------------------------------------------------------------
+### 01-03-2020
+# setting up Jekyll Theme step bt step
+
+I have created jekyll theme with the help of following link.
+
+[Link1](https://medium.com/@tordable/github-pages-as-blogging-platform-320524b1fffa)
+
+[Link2](https://onextrapixel.com/start-jekyll-blog-github-pages-free/)
+
+[Link3](https://is.gd/6DB6l8 )
+
+--------------------------------------------------------------------------------------------------------------------------------
 ### 28-02-2020
 # Setting up SMS Gateway
 
