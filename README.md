@@ -221,6 +221,44 @@ for srcpath                       #check the source directory
    done  
    
 --------------------------------------------------------------------------------------------------------------------------
+### 10-02-2020
+# How to mysql install from command line step by step
+
+
+Today I have Finished Install the mysql.
+
+   Install the MySQL database server package. You can use the Yum tool to install MySQL on Oracle Linux: sudo apt install mariadb-server
+
+   Start the MySQL service: sudo service mysql start
+
+   Launch the MySQL Command-Line Client: mysql -u root -p The -p option is needed only if a root password is defined for MySQL. Enter the password when prompted.
+
+   Create a user (for example, amc2) and a strong password: mysql> create user ‘amc2’ identified by ‘amc2’;
+
+To restrict the access to a machine (for example, to localhost for a user) create the user as follows:
+
+   mysql> create user ‘amc2’@’localhost’ identified by ‘amc2’;
+
+Create the database (for example, amc2) and grant all access to the user, for example, amc2 as follows:
+
+   
+  mysql> create database amc2;
+
+   mysql> grant all on amc2.* to ‘amc2’;
+
+Configure your MySQL installation to handle large BLOB entries, such as MSI binaries. To handle BLOB entries, edit the my.cnf file. You can find the my.cnf file in one of the following locations:
+
+/etc/my.cnf
+
+/etc/mysql/my.cnf
+
+$MYSQL_HOME/my.cnf
+
+[datadir]/my.cnf
+
+Set the options max_allowed_packet and innodb_log_file-size in the [mysqld] section to the values shown: [mysqld] max_allowed_packet=300M innodb_log_file_size=768M
+
+------------------------------------------------------------------------------------------------------------------------------
 ### 29-1-2020 
 # How to install the kali linux 2020.1 step by step
 # [Kali-Linux](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=11&cad=rja&uact=8&ved=2ahUKEwjes-iAuOznAhVv63MBHY0hBm0QFjAKegQIAhAB&url=https%3A%2F%2Fwww.hackingarticles.in%2Fhow-to-install-kali-linux-step-by-step-guide%2F&usg=AOvVaw191RziHDy1A8XHNXEqcrDA)
