@@ -193,19 +193,32 @@ Set the options max_allowed_packet and innodb_log_file-size in the [mysqld] sect
 
 -----------------------------------------------------------------------------------------------------------------------------
 ### 05-02-2020
+# Install Django
+
+-----------------------------------------------------------------------------------------------------------------------------
+### 04-02-2020
 # Python in 90 Minutes
 I have read the concept of python.
 
 [PYTHON](https://www.slideshare.net/MattHarrison4/learn-90)
 
+-----------------------------------------------------------------------------------------------------------------------------
+### 03-02-2020
+# Python
+Today I have learnt the Array,Loops,If-else,Functions,Inheritance.
+
+[Python Tutorial](https://www.w3schools.com/python/python_conditions.asp)
+
+
 ------------------------------------------------------------------------------------------------------------------------------
-### 2-02-2020 
+### 02-02-2020 
 # Python begining
 Today I have starting learnt to python and I have learnt the Basic Syntax,Varriable Types,Basic operators from this link.
+
 [Python Tutorial](https://www.tutorialspoint.com/python/python_basic_syntax.htm)
 
 ------------------------------------------------------------------------------------------------------------------------------
-### 1-02-2020
+### 01-02-2020
 # Today I Understand Linux command,script,shortcuts etc.
 
 ------------------------------------------------------------------------------------------------------------------------------
