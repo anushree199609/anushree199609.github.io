@@ -56,15 +56,16 @@ Setting up an SMS Gateway
 ### 27-02-2020
 # SMS over HTTP
 
-- INTRODUCTION
+# I have prepare project synopsis of SMS over HTTP.
+# Keypoints of synopsis
 
-- How SMS Works
+1. INTRODUCTION
+  SMS over HTTP is a Mobile technology that allows you to request and receive information from your student account on your        mobile phone via short message service (SMS).
+ - How SMS Works
 
 - Data  Minning in SMS
 
-- Literature Reviews
-
-- OBJECTIVES
+2.OBJECTIVES
 
 1.To make an Auto Display system over  SMS.
 
@@ -72,11 +73,20 @@ Setting up an SMS Gateway
 
 3.To use AI to generate reports.
 
-- REQUIREMENT ANALYSIS
+3.FEASIBILITY STUDY
 
-- FUTURE  SCOPE
+4.LITERATURE REVIEW
 
-- REFERENCES
+5.METHODOLOGY & pROBLEM FORMULATION
+
+6.REQUIREMENT ANALYSIS
+
+7.FUTURE  SCOPE
+
+1. This project will be very effective for future use.
+2.This project will be useful not only in academics but in many fields like medicals, airlines, any booking systems etc.
+
+8. REFERENCES
 
 ------------------------------------------------------------------------------------------------------------------------
 ### 21-02-2020
