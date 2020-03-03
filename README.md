@@ -1,3 +1,25 @@
+###19-02-2020
+# How to remove last three line from multiple files?
+
+Script.sh
+ 
+
+#!/bin/bash
+
+for f in *.txt 
+
+
+do
+
+     #tail command display the last 3 line and sed is used for delete the last line of the file
+
+tail -3 $f | sed -i '$d' $f | sed -i '$d' $f | sed -i '$d' $f ;
+
+
+done
+----------------------------------------------------------------------------------------------------------------------------
+
+
 ### 18-02-2020 
 # How to change multiple file extension?
  
