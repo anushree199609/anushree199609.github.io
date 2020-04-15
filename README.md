@@ -1,4 +1,172 @@
--------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+### 14-04-2020
+I understood the calling library and sms library in python.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 12-04-2020
+I am trying to make backend from Django.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 11-04-2020
+ - I Designed Registration page in which have many options such as:
+ 1. Student name
+ 2. Uni.roll no
+ 3. Branch
+ 4. Contact no
+ 5. Email ID
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 10-04-2020
+I have read the concept of UI design of projects.
+I have watched videoes related to Automatically send a text SMS to your Missed call.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 09-04-2020
+# Create sms gateway server
+All things are install only error is coming in configuration.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 08-04-2020
+# Sorting
+   Using this -
+   ### ls | sort -V
+   we are get natural order.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 07-04-2020
+# GNU Social
+I have read the concept of GNU Social.
+I Registrated.
+This may also include making out separare groups on GNU Social for different society which would make the discussion look better to all.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 05-04-2020
+# Test Web Conferencing
+I enrolled in test web conferencing.
+[link](https://hsrai.moodlecloud.com/course/view.php?id=3)
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 03-04-2020
+I installed Python,phpmyadmin,mysql,Django again.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 01-04-2020
+# Again install Kali-linux
+My operating system was corrupted.So i installed the OS again.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 30-03-2020
+I am doing a course of Node.js from Udemy.com
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 28-03-2020
+I read another concepts of SMS Gateway server
+
+[link](https://www.tecmint.com/best-open-source-bulk-sms-gateway-software/)
+
+[link](https://stackoverflow.com/questions/6911345/setting-up-an-sms-gateway)
+
+[link](https://www.developershome.com/sms/sms_tutorial.asp?page=smsGateway)
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 27-03-2020
+# Setup
+I set up web server & PhpMyadmin. Some error was coming.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 25-03-2020
+# Create Your Own SMS Gateway Server
+
+[link](https://www.techinformant.in/create-sms-gateway-server/)
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 22-03-2020
+I am doing a course of projects in Laravel from Udemy.com
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 18-03-2020
+I set up Apache2,phpmyadmin.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 16-03-2020
+ I read the concept of Database and SQL.
+ [Link](https://swcarpentry.github.io/sql-novice-survey/)
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 14-03-2020
+I have read the concepts of sms gateway
+[link](https://www.godaddy.com/garage/set-up-your-servers-to-send-alerts-via-sms-text-messages/)
+[link](https://www.linuxquestions.org/questions/linux-newbie-8/how-to-set-up-a-sms-server-in-linux-409248/)
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 13-03-2020
+# Vim Thread
+I have read the concept of Vim 
+[link](https://levelup.gitconnected.com/why-and-how-i-use-vim-da322260aa6c)
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 12-03-2020
+# Image processing
+I have read the concept of Image processing.
+[Link](https://stackoverflow.com/questions/7589012/combining-two-images-with-opencv)
+
+[Link](https://answers.opencv.org/question/175912/how-to-display-multiple-images-in-one-window/)
+
+[Link](https://blog.beens.org/2013/04/using-opencv-in-python-to-remove-colours.html?m=1)
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 09-03-2020
+# Combine Images & Colour Changed
+
+I have completed task multiple image combine into single image using this command
+
+###   convert 1.jpg 2.jpg 3.jpg -append result-new.jpg (vertically combine image)
+###   convert 1.jpg 2.jpg 3.jpg +append result-new.jpg (horizontally combine image)
+
+
+
+ I have changed the colour of image using this command
+ 
+ ### convert 1.jpg -fuzz 20%% -transparent black 2.png
+ ### convert gip4.gif -fill blue -opaque black  abc.gif
+ 
+---------------------------------------------------------------------------------------------------------------------------------
+### 07-03-2020
+# Seminar
+I have given seminar on Github pages, Jekyll-Themes and discuss on your project. 
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 06-03-2020
+# Solved Jekyll-Theme Problem 
+First of all fork it.
+Then go to config.yml and change the baseurl as you wish.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 05-03-2020
+# Project related
+I have revised the django and some topic of project.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 04-03-2020
+# Project Related
+I have read about http server.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 03-03-2020
+# Github pages 
+I have completed all blogs on Github Pages.
+This is very easy task.
+First of all,we have to go to the README.md .
+Then we have to edit it.
+
+---------------------------------------------------------------------------------------------------------------------------------
+### 02-03-2020
+# Project Synopsis
+I have completed the synopsis of our project.
+
+---------------------------------------------------------------------------------------------------------------------------------
 ### 01-03-2020
 # setting up Jekyll Theme step by step
 
