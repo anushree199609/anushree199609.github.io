@@ -2,11 +2,22 @@
 ### 20-04-2020
 I tried my project on sms gateway by using java.
 I followed this link:
+
 [link](https://dzone.com/articles/java-sms-example-%E2%80%93-how-send)
+
+
 I have installed some pre-requisites. i.e.
+
+
 [Eclipse IDE for Java]( http://www.eclipse.org/downloads/)
+
+
 [Java SE Development Kit ](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+
 [SMS Gateway](http://ozekisms.com/index.php?owpn=112).
+
+
  I made a java program named Java_sms_httprequest.java.
  When i run the program then http server connection is establish and msg is send to virtually.
  But it is saying if you want to send sms message actually, you need to install a GSM modem connection
