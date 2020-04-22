@@ -1,3 +1,6 @@
+
+# import modules
+
 from tkinter import *
 import os
 
@@ -12,29 +15,64 @@ def register():
 
 
     global username
+    global rollno
+    global branch
+    global email
     global password
+    global phnno
     global fathername
+    global mothername
     global username_entry
+    global rollno_entry
+    global branch_entry
+    global email_entry
     global password_entry
+    global phnno_entry
     global fathername_entry
+    global mothername_entry
     username = StringVar()
+    rollno = StringVar()
+    branch = StringVar()
+    email = StringVar()
     password = StringVar()
+    phnno = StringVar()
     fathername= StringVar()
+    mothername = StringVar()
 
     Label(register_screen, text="Please enter details below", bg="blue").pack()
     Label(register_screen, text="").pack()
-    username_lable = Label(register_screen, text="Username * ")
+    username_lable = Label(register_screen, text="Username *")
     username_lable.pack()
     username_entry = Entry(register_screen, textvariable=username)
     username_entry.pack()
+    rollno_lable = Label(register_screen, text="RollNo. * ")
+    rollno_lable.pack()
+    rollno_entry = Entry(register_screen, textvariable=rollno)
+    rollno_entry.pack()
+    branch_lable = Label(register_screen, text="Branch *")
+    branch_lable.pack()
+    branch_entry = Entry(register_screen, textvariable=branch)
+    branch_entry.pack()
+    email_lable = Label(register_screen, text="Email *")
+    email_lable.pack()
+    email_entry = Entry(register_screen, textvariable=email)
+    email_entry.pack()
     password_lable = Label(register_screen, text="Password * ")
     password_lable.pack()
     password_entry = Entry(register_screen, textvariable=password, show='*')
     password_entry.pack()
-    fathername_lable = Label(register_screen, text="Fathername * ")
+    phnno_lable = Label(register_screen, text="PhnNo. * ")
+    phnno_lable.pack()
+    phnno_entry = Entry(register_screen, textvariable=phnno)
+    phnno_entry.pack()
+    fathername_lable = Label(register_screen, text="Father Name * ")
     fathername_lable.pack()
     fathername_entry = Entry(register_screen, textvariable=fathername)
     fathername_entry.pack()
+    mothername_lable = Label(register_screen, text="Mother Name * ")
+    mothername_lable.pack()
+    mothername_entry = Entry(register_screen, textvariable=mothername)
+    mothername_entry.pack()
     Label(register_screen, text="").pack()
     Button(register_screen, text="Register", width=10, height=1, bg="blue", command = register_user).pack()
 
@@ -46,10 +84,7 @@ def login():
     login_screen = Toplevel(main_screen)
     login_screen.title("Login")
     login_screen.geometry("500x500")
-    icon = PhotoImage(file="/root/Desktop/clg.png")
-    # displaying the picture using a 'Label' by passing the 'picture' variriable to 'image' parameter
-    label = Label(login_screen, image=icon)
-    label.pack()
+
     Label(login_screen, text="Please enter details below to login").pack()
     Label(login_screen, text="").pack()
 
@@ -77,15 +112,35 @@ def login():
 def register_user():
 
     username_info = username.get()
+    rollno_info = rollno.get()
+    branch_info = branch.get()
+    email_info = email.get()
     password_info = password.get()
+    phnno_info = phnno.get()
+    fathername_info=fathername.get()
+    mothername_info = mothername.get()
+
 
     file = open(username_info, "w")
     file.write(username_info + "\n")
-    file.write(password_info)
+    file.write(rollno_info +"\n")
+    file.write(branch_info + "\n")
+    file.write(email_info + "\n")
+    file.write(password_info + "\n")
+    file.write(phnno_info + "\n")
+    file.write(fathername_info + "\n")
+    file.write(mothername_info + "\n")
     file.close()
 
     username_entry.delete(0, END)
+    rollno_entry.delete(0, END)
+    branch_entry.delete(0, END)
+    email_entry.delete(0, END)
+    username_entry.delete(0, END)
     password_entry.delete(0, END)
+    phnno_entry.delete(0, END)
+    fathername_entry.delete(0, END)
+    mothername_entry.delete(0, END)
 
     Label(register_screen, text="Registration Success", fg="green", font=("calibri", 11)).pack()
 
