@@ -5,17 +5,25 @@ I have done the calling and sms part using calling api,sms api and cloud platfor
 ---------------------------------------------------------------------------------------------------------------------------------
 ### 07-05-2020
 I have read about exotel calling api.
+
+
 [calling api](https://my.exotel.com)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 ### 06-05-2020
 I have read the concept of heroku cloud platform.
+
+
 [Heroku](https://git.heroku.com)
+
+
 [Heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 ### 04-05-2020
 I have used new sms api sms4india and created a python program for built sms gateway.
+
+
 [sms4india](https://www.sms4india.com)
 
 ---------------------------------------------------------------------------------------------------------------------------------
